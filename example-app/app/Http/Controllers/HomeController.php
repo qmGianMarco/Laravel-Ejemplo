@@ -12,6 +12,6 @@ class HomeController extends Controller
 
     /* La funcion __invoke se activa automaticamente cuando se llama a la clase */
     public function __invoke() {
-        return "Welcome to Homepage";
+        return view('home');
     }
 }

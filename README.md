@@ -15,11 +15,13 @@ En este repositorio se realizaran practicas y ejemplos para aprender Laravel
 - DELETE: Sirve eliminar registros
 
 ## Controllers
+- Se crean con el comando: php artisan make:controller NameController
 - Clases que contiene las funciones necesarias(vistas, funcionaliades)
 - Mejora el manejo de rutas 
 
 ## views
-Sirve para crear las vistas para el usuario
+- Se crean como archivo .blade.php
+- Sirve para crear las vistas para el usuario
 
 
 
