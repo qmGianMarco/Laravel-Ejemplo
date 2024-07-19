@@ -7,18 +7,21 @@ use Illuminate\Http\Request;
 class PostController extends Controller
 {
     public function index() {
-        return "Aqui se mostraran todos los posts";
+        return view("posts.index");
     }
 
     public function create() {
-        return "Aqui se mostrara un formulario para crear un nuevo post";
+        return view("posts.create");
     }
 
-    public function show($post, $category) {
-        if ($category) {
-            return "Aqui se mostrara el post {$post} de la categoria {$category}";
-        } else {
-            return "Aqui se mostrara el post {$post}";
-        }
+/*     public function show($post, $category) {
+        return view("posts.show", [
+            "post"=> $post, 
+            "category"=> $category
+        ]);
+    } */
+
+    public function show($post) {
+        return view("posts.show", compact("post"));
     }
 }
