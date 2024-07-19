@@ -6,6 +6,7 @@ En este repositorio se realizaran practicas y ejemplos para aprender Laravel
 - Sirve para crear las rutas y asignarles vistas(views)
 - Las rutas se leen de arriba hacia abajo
 ![alt text](/img/routes.png)
+- Llaman controllers y usan sus funciones 
 ### peticiones
 - GET: Sirve para que el usurio pida recursos (redireccionar a una pagina)
 - POST: Sirve para enviar recursos
@@ -13,7 +14,13 @@ En este repositorio se realizaran practicas y ejemplos para aprender Laravel
 - PATCH: Sirve actualizar registros
 - DELETE: Sirve eliminar registros
 
+## Controllers
+- Clases que contiene las funciones necesarias(vistas, funcionaliades)
+- Mejora el manejo de rutas 
+
 ## views
 Sirve para crear las vistas para el usuario
+
+
 
 # ARCHIVOS
