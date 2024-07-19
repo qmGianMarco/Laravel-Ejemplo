@@ -5,7 +5,7 @@ En este repositorio se realizaran practicas y ejemplos para aprender Laravel
 ## routes
 - Sirve para crear las rutas y asignarles vistas(views)
 - Las rutas se leen de arriba hacia abajo
-![alt text](/img/routes.png)
+![alt text](/img_README/routes.png)
 - Llaman controllers y usan sus funciones 
 ### peticiones
 - GET: Sirve para que el usurio pida recursos (redireccionar a una pagina)
