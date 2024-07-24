@@ -29,6 +29,9 @@ En este repositorio se realizaran practicas y ejemplos para aprender Laravel
 - Debajo del title va el link del tailwindcss 
 - Sirve para crear las vistas para el usuario
 
+## componentes
+- Permiten crear plantillas para ser reutilizadas a lo largo del proyecto
+
 
 
 # ARCHIVOS

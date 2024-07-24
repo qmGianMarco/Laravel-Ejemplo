@@ -32,6 +32,6 @@
 
 {{-- $attributes contiene las clases que se agregen a parte --}}
 {{-- $attributes se une con class que ya tiene p-4 mb-4 text-sm --}}
-<div {{ $attributes->merge(['class' => 'p-4 text-sm rounded-lg' . $class]) }} role="alert"> {{-- algo esta fallando aqui :'v --}}
+<div {{ $attributes->merge(['class' => 'p-4 text-sm rounded-lg ' . $class]) }} role="alert"> 
     <span class="font-medium">{{$title ?? 'Info Alert!'}}</span> {{$slot}}
 </div>
